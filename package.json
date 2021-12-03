@@ -32,7 +32,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "docusaurus-plugin-umami",
+  "name": "@mdestafadilah/docusaurus-plugin-umami",
   "author": "mdestafadilah",
   "module": "dist/docusaurus-plugin-umami.esm.js",
   "size-limit": [
