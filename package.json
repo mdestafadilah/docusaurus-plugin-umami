@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "repository": "git://github.com/mdestafadilah/docusaurus-plugin-umami.git",
   "license": "MIT",
   "main": "dist/index.js",
