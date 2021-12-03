@@ -10,26 +10,26 @@ export default function umamiTagAnalytics({
 
   if (!umamitag) {
     throw new Error(
-      'You need to specify `umamitag` object in `themeConfig` ' +
-        'with `code` field in it to use docusaurus-plugin-umamitag'
+      'You need to specify `umami` object in `themeConfig` ' +
+        'with `code` field in it to use docusaurus-plugin-umami'
     );
   }
   if (!src) {
     throw new Error(
-      'You specified the `umamitag` object in `themeConfig`, ' +
+      'You specified the `umami` object in `themeConfig`, ' +
         'but the `code` field was missing. '
     );
   }
 
   if (!websiteId) {
     throw new Error(
-      'You specified the `umamitag` object in `themeConfig` but the `websiteId` field was missing. ' +
+      'You specified the `umami` object in `themeConfig` but the `websiteId` field was missing. ' +
         'Please add it.'
     );
   }
   if (typeof websiteId !== 'string') {
     throw new Error(
-      'You specified the `umamitag` object in `themeConfig` but the `code` field should be a string.'
+      'You specified the `umami` object in `themeConfig` but the `code` field should be a string.'
     );
   }
 
