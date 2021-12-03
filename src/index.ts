@@ -43,7 +43,7 @@ export default function umamiTagAnalytics({ siteConfig: { themeConfig }}: LoadCo
           tagName: 'script',
           attributes: {
               src: analyticsDomain,
-              'data-website-id': umamitag.websiteId
+              'data-website-id': websiteId
           }
         }
       ]
